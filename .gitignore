@@ -1,0 +1,76 @@
+############################
+# OS / IDE 기본 무시 항목
+############################
+
+.DS_Store
+Thumbs.db
+
+.settings/
+.classpath
+.project
+.vscode/
+
+############################
+# Java / JSP 빌드 산출물
+############################
+
+build/
+target/
+out/
+
+*.class
+*.war
+*.ear
+*.jar
+
+############################
+# 톰캣(Tomcat) 관련
+############################
+
+logs/
+work/
+temp/
+
+############################
+# JSP 전용 빌드/캐시
+############################
+
+*.jsp.class
+
+############################
+# Oracle DB / 민감정보 파일
+############################
+
+src/main/java/JSP_Project/DatabaseConnection.java
+**/DatabaseConnection.java
+
+db.properties
+jdbc.properties
+database.properties
+datasource.properties
+conn.properties
+
+############################
+# 환경 변수 / config 파일
+############################
+
+.env
+.env.local
+.env.*.local
+
+############################
+# WEB-INF 라이브러리 (절대 업로드 금지)
+############################
+
+src/main/webapp/WEB-INF/lib/
+**/WEB-INF/lib/
+
+############################
+# 기타 무시
+############################
+
+uploads/
+upload/
+files/
+temp/
+*.log
